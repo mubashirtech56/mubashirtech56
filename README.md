@@ -76,9 +76,9 @@ Building projects, learning modern web technologies, and contributing to open so
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=mubashirtech56&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mubashirtech56&layout=compact&theme=tokyonight&hide_border=true"/>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mubashirtech56&theme=tokyo-night"/>
+</p>
 
 </p>
 
