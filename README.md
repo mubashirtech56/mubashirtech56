@@ -37,15 +37,15 @@ Building projects, learning modern web technologies, and contributing to open so
 ## 🌐 Connect with Me
 
 <p align="center">
-<a href="https://linkedin.com/in/mubashirtech56">
+<a href="https://linkedin.com/in/mubashirtech56" target="_blank">
 <img src="https://skillicons.dev/icons?i=linkedin" height="45"/>
 </a>
 
-<a href="https://instagram.com/mubashirtech56">
+<a href="https://instagram.com/mubashirtech56" target="_blank" >
 <img src="https://skillicons.dev/icons?i=instagram" height="45"/>
 </a>
 
-<a href="https://facebook.com/mubashirnu23">
+<a href="https://facebook.com/mubashirnu23" target="_blank" >
 <img src="https://cdn.simpleicons.org/facebook/1877F2" height="45"/>
 </a>
 </p>
