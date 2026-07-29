@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Mubashir Ali</h1>
 
 <h3 align="center">
-Computer Science Student | Front-End Developer | Python Enthusiast 🇵🇰
+Computer Science Student | Front-End Developer |🇵🇰
 </h3>
 
 <p align="center">
