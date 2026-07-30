@@ -9,7 +9,7 @@ Passionate about building web applications, learning modern technologies, and co
 </p>
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=mubashirtech56&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=mubashirtech56&label=Profile%20000Views&color=0e75b6&style=flat" alt="Profile Views"/>
 </p>
 
 ---
