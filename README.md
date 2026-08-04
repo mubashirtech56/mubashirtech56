@@ -1,138 +1,155 @@
 <h1 align="center">Hi 👋, I'm Mubashir Ali</h1>
 
 <h3 align="center">
-Computer Science Student | Front-End Developer 🇵🇰
+Computer Science Student • Front-End Developer • Pakistan 🇵🇰
 </h3>
 
 <p align="center">
-Passionate about building web applications, learning modern technologies, and contributing to open source.
+Building modern web applications, learning new technologies, and contributing to open source.
 </p>
 
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=mubashirtech56&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
 </p>
 
----
-
-## 🚀 About Me
-
-* 🎓 Computer Science Student
-* 🌐 Interested in Web Development & Python
-* 🤝 Looking to collaborate on Open Source Projects
-* 💬 Ask me about **C, C++, HTML, CSS & Python**
-* 📫 Reach me at **[mbrgamers900ss@gmail.com](mailto:mbrgamers900ss@gmail.com)**
-
----
-
-## 🛠 Tech Stack
-
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,html,css,python,git,github,vscode,linux" />
+<a href="https://mubashir-ali-porfolio.netlify.app/">
+<img src="https://img.shields.io/badge/🌐_Portfolio-0A66C2?style=for-the-badge" alt="Portfolio"/>
+</a>
+
+<a href="https://github.com/mubashirtech56">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+
+<a href="https://linkedin.com/in/mubashirtech56">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
 </p>
 
 ---
 
-## 📚 Currently Learning
+# 🚀 About Me
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js" />
-</p>
-
-* JavaScript (ES6+)
-* DOM Manipulation
-* Modern JavaScript Concepts
-* Building Interactive Websites
-
----
-
-## 🚀 Future Learning
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=tailwind,react,flask,fastapi,django,java,go,rust,cs" />
-</p>
-
-* Tailwind CSS
-* React
-* Flask
-* FastAPI
-* Django
-* Java
-* Go
-* Rust
-* C#
+- 🎓 Computer Science Student
+- 💻 Passionate about Front-End Development
+- 🐍 Learning Python alongside Web Development
+- 🌱 Currently learning JavaScript (ES6+)
+- 🤝 Open to Open Source Collaboration
+- 💬 Ask me about **C, C++, HTML, CSS & Python**
+- 📫 Reach me at **mbrgamers900ss@gmail.com**
 
 ---
 
-## 🌐 Connect with Me
+# 🛠 Tech Stack
 
 <p align="center">
-<a href="https://linkedin.com/in/mubashirtech56" target="_blank">
+<img src="https://skillicons.dev/icons?i=c,cpp,html,css,python,git,github,vscode,linux" />
+</p>
+
+---
+
+# 📚 Currently Learning
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=js" />
+</p>
+
+- JavaScript (ES6+)
+- DOM Manipulation
+- Modern JavaScript
+- Interactive Websites
+
+---
+
+# 🎯 Next Technologies
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=tailwind,react,flask,fastapi,django,java,go,rust,cs" />
+</p>
+
+- Tailwind CSS
+- React
+- Flask
+- FastAPI
+- Django
+- Java
+- Go
+- Rust
+- C#
+
+---
+
+# 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://linkedin.com/in/mubashirtech56">
 <img src="https://skillicons.dev/icons?i=linkedin" height="45"/>
 </a>
 
-<a href="https://instagram.com/mubashirtech56" target="_blank">
+<a href="https://instagram.com/mubashirtech56">
 <img src="https://skillicons.dev/icons?i=instagram" height="45"/>
 </a>
 
-<a href="https://facebook.com/mubashirnu23" target="_blank">
+<a href="https://facebook.com/mubashirnu23">
 <img src="https://cdn.simpleicons.org/facebook/1877F2" height="45"/>
 </a>
+
 </p>
 
 ---
 
----
-
-## 🌍 Portfolio
+# 📊 GitHub Statistics
 
 <p align="center">
-<a href="https://mubashir-ali-porfolio.netlify.app/" target="_blank">
-<img src="https://img.shields.io/badge/🌐%20Visit%20My%20Portfolio-0A66C2?style=for-the-badge" alt="Portfolio"/>
-</a>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=mubashirtech56&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mubashirtech56&layout=compact&theme=tokyonight&hide_border=true"/>
+
 </p>
 
 <p align="center">
-<a href="https://mubashir-ali-porfolio.netlify.app/">
-https://mubashir-ali-porfolio.netlify.app/
-</a>
-</p>
 
----
+<img src="https://streak-stats.demolab.com?user=mubashirtech56&theme=tokyonight&hide_border=true"/>
 
-
-
----
-
-
-## 📈 GitHub Statistics
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mubashirtech56&theme=tokyo-night"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=mubashirtech56&theme=tokyonight&hide_border=true"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mubashirtech56&theme=tokyo-night"/>
+
 </p>
 
 ---
 
-## 🎯 Goals
+# 🎯 2026 Goals
 
-* 🚀 Master JavaScript
-* ⚛️ Learn React & Tailwind CSS
-* 🐍 Build Backend Applications with Python
-* 📦 Contribute to Open Source
-* 🌍 Build Full-Stack Projects
-* ⭐ Grow My GitHub Portfolio
+- 🚀 Master JavaScript
+- ⚛️ Learn React
+- 🎨 Build Responsive UI with Tailwind CSS
+- 🐍 Develop Backend Applications using Python
+- 🌍 Create Full-Stack Projects
+- 📦 Contribute to Open Source
+- ⭐ Build a Strong GitHub Portfolio
 
 ---
 
-## 💡 Quote
+# 💻 Current Focus
 
-> "Code. Learn. Build. Repeat."
+```text
+🌱 Learning JavaScript
+⚡ Building Real-World Projects
+📚 Improving Problem Solving
+🚀 Growing as a Full-Stack Developer
+```
 
 ---
 
 <p align="center">
-⭐ Thanks for visiting my profile!
+
+### ⭐ If you like my work, consider giving my repositories a star!
+
+Thanks for visiting my profile! 🚀
+
 </p>
