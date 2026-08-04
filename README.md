@@ -13,7 +13,7 @@ Building modern web applications, learning new technologies, and contributing to
 </p>
 
 <p align="center">
-<a href="https://mubashir-ali-porfolio.netlify.app/">
+<a href="https://mubashirtech56.github.io/mubashirtech56/">
 <img src="https://img.shields.io/badge/🌐_Portfolio-0A66C2?style=for-the-badge" alt="Portfolio"/>
 </a>
 
