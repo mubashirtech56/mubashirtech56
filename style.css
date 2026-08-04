@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 58px;
+  background-color: rgb(18, 18, 62);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  display: flex;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1.02rem;
+}
+.left {
+  font-size: 1.5rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0px;
+}
+.firstSection > div {
+  width: 40%;
+}
+.leftSection {
+  font-size: 2.8rem;
+}
+.rightSection > img {
+  width: 80%;
+  margin-top: 25p x;
+  border-radius: 50%;
+}
+.purple {
+  color: rgb(104, 10, 193);
+}
+#element {
+  color: rgb(104, 10, 193);
+}
+
+.secondSection {
+  max-width: 90vw;
+  height: 90vh;
+  margin: auto;
+}
+
+.secondSection h1 {
+  font-size: 2rem;
+}
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.text-gray {
+  color: gray;
+}
+.secondSection .box {
+  background: white;
+  width: 77vw;
+  height: 2px;
+  margin: 50px 50px;
+  display: flex;
+}
+
+.secondSection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 140px;
+}
+.vertical .image-1 {
+  width: 30px;
+  position: relative;
+  top: -33px;
+  left: -15px;
+}
+.vertical-text {
+  position: relative;
+  top: 65px;
+  width: 170px;
+  font-size: 16x;
+}
+.vertical-desc {
+  position: relative;
+  top: 75px;
+  color: gray;
+  width: 160px;
+  font-size: 12px;
+}
+footer {
+  background-color: #0e0e1a;
+}
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+.footer > div {
+  width: 250px;
+}
+.footer ul {
+  list-style: none;
+  display: flex;
+}
+.footer ul li {
+  margin-left: 40px;
+}
+.footer ul li:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1.02rem;
+}
+footer .footer-rights {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  padding: 12px 0;
+}
+footer .footer-rights a {
+  text-decoration: none;
+  color: gray;
+}

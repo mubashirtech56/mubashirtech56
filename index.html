@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mubashir - Developer Portfolio</title>
+    <!-- Google Fonts preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Poppins font link (400 Regular & 700 Bold) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Mubashir's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="firstSection">
+        <div class="leftSection">
+          Hi, My Name is <span class="purple">Mubashir</span>
+          <div>and I am a Passionate</div>
+          <span id="element"></span>
+        </div>
+
+        <div class="rightSection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <section class="secondSection">
+        <hr />
+        <span id="about" class="text-gray">What I Have Done So Far</span>
+        <h1>Work Experiance</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-1" src="CPP.svg" alt="" />
+            <div class="vertical-text">C++ Programmer</div>
+            <div class="vertical-desc">
+              C++ Developer specializing in object-oriented programming, STL,
+              and efficient problem-solving.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-1" src="Python-Dark.svg" alt="" />
+            <div class="vertical-text">Python Programmer</div>
+            <div class="vertical-desc">
+              Building efficient applications with Python through automation,
+              object-oriented programming, file handling, and problem-solving
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-1" src="HTML.svg" alt="" />
+            <div class="vertical-text">HTML Developer</div>
+            <div class="vertical-desc">
+              Creating semantic, accessible, and well-structured web pages using
+              modern HTML5 standards.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-1" src="CSS.svg" alt="" />
+            <div class="vertical-text">CSS Developer</div>
+            <div class="vertical-desc">
+              Designing responsive, visually appealing, and user-friendly
+              interfaces with modern CSS, Flexbox, Grid, and animations.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Mubashir's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <a href="#home" style="text-decoration: none; color: white">
+              <li>Home</li></a
+            >
+            <li>About Me</li>
+            <li>Work Experiance</li>
+            <li>Contact Me</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        <a href="https://mubashir-ali-porfolio.netlify.app/" target="_blank"
+          >mubashir-ali-porfolio.netlify.app</a
+        >
+        &nbsp| All Right Reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Web Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
