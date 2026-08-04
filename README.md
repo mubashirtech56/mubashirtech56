@@ -81,6 +81,29 @@ Passionate about building web applications, learning modern technologies, and co
 
 ---
 
+---
+
+## 🌍 Portfolio
+
+<p align="center">
+<a href="https://mubashir-ali-porfolio.netlify.app/" target="_blank">
+<img src="https://img.shields.io/badge/🌐%20Visit%20My%20Portfolio-0A66C2?style=for-the-badge" alt="Portfolio"/>
+</a>
+</p>
+
+<p align="center">
+<a href="https://mubashir-ali-porfolio.netlify.app/">
+https://mubashir-ali-porfolio.netlify.app/
+</a>
+</p>
+
+---
+
+
+
+---
+
+
 ## 📈 GitHub Statistics
 
 <p align="center">
