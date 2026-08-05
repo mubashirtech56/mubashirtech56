@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mubashir - Developer Portfolio</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23680ac1'/%3E%3Ctext x='50' y='70' font-size='60' text-anchor='middle' fill='white' font-family='Arial, sans-serif' font-weight='bold'%3EM%3C/text%3E%3C/svg%3E"
+    />
+    <meta name="description" content="Mubashir - CS student at FAST University Peshawar. C, C++, Python and web developer portfolio." />
     <!-- Google Fonts preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,14 +21,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="scrollProgress"></div>
     <header>
       <nav>
         <div class="left">Mubashir's Portfolio</div>
-        <div class="right">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="right" id="navMenu">
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact Me</a></li>
           </ul>
         </div>
@@ -32,51 +44,200 @@
     <main>
       <section id="home" class="firstSection">
         <div class="leftSection">
-          Hi, My Name is <span class="purple">Mubashir</span>
-          <div>and I am a Passionate</div>
-          <span id="element"></span>
+          <span class="hero-badge">Welcome to my portfolio</span>
+          <div class="hero-title">
+            Hi, My Name is <span class="purple">Mubashir</span>
+            <div>and I am a Passionate</div>
+            <span id="element"></span>
+          </div>
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#contact">Contact Me</a>
+            <a class="btn btn-outline" href="#projects">View Projects</a>
+          </div>
         </div>
 
         <div class="rightSection">
-          <img src="bg.png" alt="" />
+          <div class="avatar-wrap">
+            <img src="bg.jpg" alt="Mubashir's avatar" />
+          </div>
         </div>
       </section>
-      <section class="secondSection">
-        <hr />
-        <span id="about" class="text-gray">What I Have Done So Far</span>
-        <h1>Work Experiance</h1>
-        <div class="box">
-          <div class="vertical">
-            <img class="image-1" src="CPP.svg" alt="" />
-            <div class="vertical-text">C++ Programmer</div>
-            <div class="vertical-desc">
-              C++ Developer specializing in object-oriented programming, STL,
-              and efficient problem-solving.
-            </div>
+
+      <section id="about">
+        <div id="aboutme-header">About Me</div>
+        <div id="aboutme-text">
+          Hello! I'm Mubashir, a CS student from FAST University in Peshawar. I
+          am an introvert person with a passion for coding, especially in C and
+          C++. I love working on practical projects like mobile-controlled home
+          appliances and pizza ordering systems.
+        </div>
+        <div class="about-details reveal">
+          <ul>
+            <li><strong>Name:</strong> Mubashir</li>
+            <li><strong>University:</strong> FAST University, Peshawar</li>
+            <li><strong>Program:</strong> BS Computer Science (7th Semester)</li>
+            <li><strong>Focus:</strong> C and C++ development, OOP, embedded-style programming</li>
+            <li><strong>Interests:</strong> Practical projects, problem-solving, web development</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="section-header reveal">
+          <span class="eyebrow">My Work</span>
+          <h1>My Projects</h1>
+        </div>
+        <div class="projects-container">
+          <div class="project-card reveal">
+            <h2 class="projectName">Home Appliance Control System</h2>
+            <p class="project-desc">
+              Developed in C, this project allows users to control home
+              appliances via mobile. A great example of C programming for
+              embedded systems.
+            </p>
+            <span class="project-tag">C</span>
           </div>
-          <div class="vertical">
-            <img class="image-1" src="Python-Dark.svg" alt="" />
-            <div class="vertical-text">Python Programmer</div>
-            <div class="vertical-desc">
-              Building efficient applications with Python through automation,
-              object-oriented programming, file handling, and problem-solving
-            </div>
+          <div class="project-card reveal">
+            <h2 class="projectName">Pizza Box Order Management System</h2>
+            <p class="project-desc">
+              My current project in C++. It manages pizza orders and uses
+              object-oriented principles to streamline order processing.
+            </p>
+            <span class="project-tag">C++</span>
           </div>
-          <div class="vertical">
-            <img class="image-1" src="HTML.svg" alt="" />
-            <div class="vertical-text">HTML Developer</div>
-            <div class="vertical-desc">
-              Creating semantic, accessible, and well-structured web pages using
-              modern HTML5 standards.
+        </div>
+      </section>
+
+      <section id="work" class="secondSection">
+        <div class="section-header reveal">
+          <span class="eyebrow">What I Have Done So Far</span>
+          <h1>Skills &amp; Work Experience</h1>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-icon">
+              <img src="CPP.svg" alt="C++ logo" />
             </div>
+            <h3>C++</h3>
+            <p>OOP, STL, and efficient problem-solving.</p>
           </div>
-          <div class="vertical">
-            <img class="image-1" src="CSS.svg" alt="" />
-            <div class="vertical-text">CSS Developer</div>
-            <div class="vertical-desc">
-              Designing responsive, visually appealing, and user-friendly
-              interfaces with modern CSS, Flexbox, Grid, and animations.
+          <div class="skill-card reveal">
+            <div class="skill-icon">
+              <img src="Python-Dark.svg" alt="Python logo" />
             </div>
+            <h3>Python</h3>
+            <p>Automation, file handling, and clean OOP applications.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">
+              <img src="HTML.svg" alt="HTML logo" />
+            </div>
+            <h3>HTML</h3>
+            <p>Semantic, accessible, well-structured HTML5 pages.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">
+              <img src="CSS.svg" alt="CSS logo" />
+            </div>
+            <h3>CSS</h3>
+            <p>Responsive, animated layouts with Flexbox and Grid.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">
+              <span class="skill-badge">C</span>
+            </div>
+            <h3>C</h3>
+            <p>Systems and embedded-style programming projects.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">
+              <span class="skill-badge">JS</span>
+            </div>
+            <h3>JavaScript</h3>
+            <p>Interactive front-end behavior and dynamic web pages.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">
+              <span class="skill-badge">DSA</span>
+            </div>
+            <h3>Data Structures</h3>
+            <p>Arrays, linked lists, stacks, queues, and algorithms.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">
+              <span class="skill-badge">OOP</span>
+            </div>
+            <h3>OOP</h3>
+            <p>Classes, inheritance, polymorphism, and encapsulation.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">
+              <span class="skill-badge">Git</span>
+            </div>
+            <h3>Version Control</h3>
+            <p>Git workflows, branching, and collaboration basics.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">
+              <span class="skill-badge">PS</span>
+            </div>
+            <h3>Problem Solving</h3>
+            <p>Efficient, logical solutions to complex challenges.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="section-header reveal">
+          <span class="eyebrow">Academics</span>
+          <h1>Education</h1>
+        </div>
+        <div class="edu-container">
+          <div class="edu-card reveal">
+            <h2>FAST University, Peshawar</h2>
+            <p>BS Computer Science — 7th Semester</p>
+            <p class="edu-note">Currently studying Data Structures, OOP, and more.</p>
+          </div>
+          <div class="edu-card reveal">
+            <h2>Army Model School and College, Dadu</h2>
+            <p>10th Grade: 78%</p>
+            <p>12th Grade: 77%</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="section-header reveal">
+          <span class="eyebrow">Get In Touch</span>
+          <h1>Contact Me</h1>
+        </div>
+        <div class="contact-info reveal">
+          <p>Have a project idea or just want to say hi?</p>
+          <a class="contact-link" href="mailto:mbrgamers900ss@gmail.com">
+            mbrgamers900ss@gmail.com
+          </a>
+          <div class="social-links">
+            <a
+              class="social-link"
+              href="https://github.com/mubashirtech56"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+            <a
+              class="social-link"
+              href="https://www.linkedin.com/in/mubashirtech56"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+            <a
+              class="social-link"
+              href="https://www.instagram.com/mubashirtech56"
+              target="_blank"
+              rel="noopener"
+              >Instagram</a
+            >
           </div>
         </div>
       </section>
@@ -88,30 +249,112 @@
         </div>
         <div class="footer-second">
           <ul>
-            <a href="#home" style="text-decoration: none; color: white">
-              <li>Home</li></a
-            >
-            <li>About Me</li>
-            <li>Work Experiance</li>
-            <li>Contact Me</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="mailto:mbrgamers900ss@gmail.com">Contact Me</a></li>
           </ul>
         </div>
       </div>
+
       <div class="footer-rights">
         <a
-          href="https://mubashirtech56.github.io/mubashirtech56/"
+          href="https://github.com/mubashirtech56"
           target="_blank"
-          >mubashirtech56.github.io/mubashirtech56/</a
+          rel="noopener"
+          >github.com/mubashirtech56</a
         >
-        &nbsp| All Right Reserved
+        &nbsp| All Rights Reserved
       </div>
     </footer>
     <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed("#element", {
-        strings: ["Web Developer", "Web Designer"],
+        strings: ["C++ Developer", "Web Developer", "Python Programmer"],
         typeSpeed: 50,
+        backSpeed: 30,
+        loop: true,
       });
+
+      var navToggle = document.getElementById("navToggle");
+      var navMenu = document.getElementById("navMenu");
+      navToggle.addEventListener("click", function () {
+        var open = navMenu.classList.toggle("nav-open");
+        navToggle.setAttribute("aria-expanded", open);
+      });
+      navMenu.querySelectorAll("a").forEach(function (link) {
+        link.addEventListener("click", function () {
+          navMenu.classList.remove("nav-open");
+          navToggle.setAttribute("aria-expanded", "false");
+        });
+      });
+
+      var scrollBar = document.getElementById("scrollProgress");
+      var navEl = document.querySelector("nav");
+      var navLinks = document.querySelectorAll("nav ul li a");
+      var sections = document.querySelectorAll("section[id]");
+      var ticking = false;
+
+      window.addEventListener("scroll", function () {
+        if (!ticking) {
+          window.requestAnimationFrame(updateOnScroll);
+          ticking = true;
+        }
+      });
+
+      function updateOnScroll() {
+        var currentY = window.scrollY;
+        var doc = document.documentElement;
+        var scrolled =
+          (doc.scrollTop / (doc.scrollHeight - doc.clientHeight)) * 100;
+        scrollBar.style.width = scrolled + "%";
+
+        if (currentY > 10) {
+          navEl.classList.add("scrolled");
+        } else {
+          navEl.classList.remove("scrolled");
+        }
+
+        var current = "home";
+        sections.forEach(function (sec) {
+          if (currentY >= sec.offsetTop - 100) {
+            current = sec.getAttribute("id");
+          }
+        });
+        navLinks.forEach(function (link) {
+          link.classList.toggle(
+            "active",
+            link.getAttribute("href") === "#" + current
+          );
+        });
+        ticking = false;
+      }
+
+      function setUpReveal() {
+        var items = document.querySelectorAll(".reveal:not(.revealed)");
+        if ("IntersectionObserver" in window) {
+          var observer = new IntersectionObserver(
+            function (entries) {
+              entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                  entry.target.classList.add("revealed");
+                  observer.unobserve(entry.target);
+                }
+              });
+            },
+            { threshold: 0.15 }
+          );
+          items.forEach(function (el) {
+            observer.observe(el);
+          });
+        } else {
+          items.forEach(function (el) {
+            el.classList.add("revealed");
+          });
+        }
+      }
+      setUpReveal();
     </script>
   </body>
 </html>
